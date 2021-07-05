@@ -1,0 +1,35 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+html,
+body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	background-color: #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fake-progressBar {
+	display: flex;
+	width: 80vmin;
+	height: 20vmin;
+	_background-color: orangered;
+	border-radius: 1rem;
+	box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+.fake-progressbar_item {
+	background-color: orangered;
+	flex-grow: 1;
+}
+.fake-progressbar_item:hover,
+.fake-progressbar_item:hover ~ * {
+	opacity: 0;
+}
