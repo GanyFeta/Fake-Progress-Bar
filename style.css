@@ -21,7 +21,7 @@ body {
 	display: flex;
 	width: 80vmin;
 	height: 20vmin;
-	_background-color: orangered;
+	border: 1.5rem solid orangered;
 	border-radius: 1rem;
 	box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
 }
